@@ -474,4 +474,4 @@ def login_2(uid):
     
     for pw in ('123456', '123123', '1234567', '12345678', '123456789'):
         try:
-            with requests.Session() as session:
+            with requests.session() as session:
